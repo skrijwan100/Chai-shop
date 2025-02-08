@@ -2,8 +2,11 @@
 
 export default function Home() {
   return (
-    <div className="text-red-600 text-2xl">
-      This is homepage
+    <div>
+    <div className="text-white text-5xl font-bold text-center py-3  ">
+      Let's buy a chai
+    </div>
+      
     </div>
   );
 }
