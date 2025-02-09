@@ -2,10 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jersey+15&family=Rubik+Vinyl&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jersey+15&family=Rubik+Vinyl&display=swap'); */
 /* From Uiverse.io by D3OXY */ 
 /* DEOXY Was Here */
-.form {
+.formcc {
     --background: #d3d3d3;
     --input-focus: #2d8cf0;
     --font-color: #323232;
@@ -24,7 +24,7 @@
     box-shadow: 4px 4px var(--main-color);
   }
   
-  .form > p {
+  .formcc > p {
     font-family: var(--font-DelaGothicOne);
     color: var(--font-color);
     font-weight: 700;
@@ -34,7 +34,7 @@
     flex-direction: column;
   }
   
-  .form > p > span {
+  .formcc > p > span {
     font-family: var(--font-SpaceMono);
     color: var(--font-color-sub);
     font-weight: 600;
@@ -107,7 +107,7 @@
     width: 100%;
   }
   
-  .form > input {
+  .formcc > input {
     width: 250px;
     height: 40px;
     border-radius: 5px;

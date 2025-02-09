@@ -1,10 +1,13 @@
+"use client"
 import React from 'react'
-import "../globals.css"
+import { useSession, signIn, signOut } from "next-auth/react"
+// import "../globals.css"
 export default function Login() {
     return (
-        <div className=' flex justify-center items-center' >
+        <div className=' flex justify-center items-center flex-col' >
+            <h1 className='font-bold text-3xl text-blue-600 my-2'>Login</h1>
         <div className='w-80'>
-            <div action="" className="form my-9">
+            <div className="formcc my-9">
                 <p>
                     Welcome,<span>sign in to continue</span>
                 </p>
