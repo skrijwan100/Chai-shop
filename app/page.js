@@ -1,6 +1,7 @@
 
 
 export default function Home() {
+  console.log(process.env.GITHUB_ID)
   return (
     <div>
     <div className="text-white text-5xl font-bold text-center py-3  ">
