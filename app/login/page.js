@@ -1,8 +1,17 @@
 "use client"
 import React from 'react'
+import { useEffect } from 'react'
 import { useSession, signIn, signOut } from "next-auth/react"
 // import "../globals.css"
+import { useRouter } from 'next/navigation'
 export default function Login() {
+      const { data: session } = useSession()
+      const router=useRouter()
+      useEffect(() => {
+        if (session) {
+          router.push("/");
+        }
+      }, [session, router]);
     return (
         <div className=' flex justify-center items-center flex-col' >
             <h1 className='font-bold text-3xl text-blue-600 my-2'>Login</h1>
