@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import "flowbite/src/themes/default";
 /* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jersey+15&family=Rubik+Vinyl&display=swap'); */
 /* From Uiverse.io by D3OXY */ 
 /* DEOXY Was Here */
